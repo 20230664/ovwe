@@ -37,14 +37,16 @@ def init_db():
     conn.execute("""
         CREATE TABLE Role (
             role_id VARCHAR PRIMARY KEY,
-            role_name VARCHAR
+            role_name VARCHAR,
+            description VARCHAR
         )
     """)
     # 맵 모드
     conn.execute("""
         CREATE TABLE Mode (
             mode_id VARCHAR PRIMARY KEY,
-            mode_name VARCHAR
+            mode_name VARCHAR,
+            description VARCHAR
         )
     """)
     # 영웅

@@ -18,12 +18,6 @@ def main(page: ft.Page):
     content_area = ft.Column()
     page.add(content_area)
 
-    role_info = {
-        "Tank": {"title": "돌격 (Tank)", "desc": "팀의 전방을 지키며 피해를 흡수하고, 적의 진입을 방해합니다."},
-        "Damage": {"title": "공격 (Damage)", "desc": "적을 공격하고 처치하여 전투 우위를 확보합니다."},
-        "Support": {"title": "지원 (Support)", "desc": "아군을 치유하거나 강화하여 팀의 지속력을 높입니다."}
-    }
-
     # ---------------- 메인 메뉴 ----------------
     def show_main_menu(e=None):
         content_area.controls.clear()
@@ -50,7 +44,7 @@ def main(page: ft.Page):
         )
         content_area.controls.append(ft.Text(f"영웅: {hero_info[0][0]}", size=25, weight="bold"))
         for ab_name, cd in abilities:
-            content_area.controls.append(ft.Text(f"스킬: {ab_name} | 쿨타임: {cd}초"))
+            content_area.controls.append(ft.Text(f"스킬: {ab_name} | 쿨타임: {cd}"))
         content_area.controls.append(ft.ElevatedButton("목록으로 돌아가기", on_click=show_hero_list))
         page.update()
 
@@ -89,22 +83,27 @@ def main(page: ft.Page):
 
     # ---------------- 역할군 ----------------
     def show_role_list(e):
+        roles = get_db_data("SELECT role_id, role_name FROM Role")
         content_area.controls.clear()
-        for key in role_info:
-            content_area.controls.append(ft.ElevatedButton(key, on_click=lambda e, r=key: show_role_detail(r)))
+        content_area.controls.append(ft.Text("역할군 목록", size=20, weight="bold"))
+        for role_id, role_name in roles:
+            content_area.controls.append(
+                ft.ElevatedButton(role_name, on_click=lambda e, rid=role_id: show_role_detail(rid))
+            )
         content_area.controls.append(ft.ElevatedButton("메인으로", on_click=show_main_menu))
         page.update()
 
-    def show_role_detail(role_key):
-        info = role_info[role_key]
-        content_area.controls.clear()
-        content_area.controls.append(ft.Column([
-            ft.Text(info["title"], size=25, weight="bold"),
-            ft.Text(f"설명: {info['desc']}"),
-            ft.ElevatedButton("목록으로", on_click=show_role_list)
-        ]))
-        page.update()
-
+    def show_role_detail(role_id):
+        role_data = get_db_data("SELECT role_name, description FROM Role WHERE role_id = ?", (role_id,))
+        if role_data:
+            role_name, desc = role_data[0]
+            content_area.controls.clear()
+            content_area.controls.append(ft.Column([
+                ft.Text(role_name, size=25, weight="bold"),
+                ft.Text(f"설명: {desc}"),
+                ft.ElevatedButton("목록으로", on_click=show_role_list)
+            ]))
+            page.update()
     # ---------------- 모드 ----------------
     def show_mode_list(e):
         modes = get_db_data("SELECT mode_id, mode_name FROM Mode")
@@ -116,12 +115,13 @@ def main(page: ft.Page):
         page.update()
 
     def show_mode_detail(m_id):
-        mode_data = get_db_data("SELECT mode_name FROM Mode WHERE mode_id = ?", (m_id,))
+        mode_data = get_db_data("SELECT mode_name, description FROM Mode WHERE mode_id = ?", (m_id,))
         if mode_data:
-            name = mode_data[0][0]
+            name, desc = mode_data[0]
             content_area.controls.clear()
             content_area.controls.append(ft.Column([
                 ft.Text(name, size=25, weight="bold"),
+                ft.Text(f"설명: {desc}"),
                 ft.ElevatedButton("목록으로", on_click=show_mode_list)
             ]))
             page.update()
@@ -519,8 +519,6 @@ def main(page: ft.Page):
             ft.ElevatedButton("경기 상세로", on_click=lambda e: show_match_detail(battle_tag, match_id))
         )
         page.update()
-
-    # 초기 화면 실행
+    # ---------------- 초기 화면 실행 ----------------
     show_main_menu()
-
 ft.app(target=main, assets_dir="assets")
