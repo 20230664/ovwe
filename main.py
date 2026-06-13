@@ -225,7 +225,7 @@ def main(page: ft.Page):
         """, (battle_tag,))
 
         recent_matches = get_db_data("""
-            SELECT m.Match_id, m.play_at, p.result, h.hero_name,
+            SELECT m.Match_id, m.play_at, m.result, h.hero_name,
                 p.kill_count, p.deaths, p.damage, p.healing
             FROM Performance p
             JOIN Match_info m ON p.Match_id = m.Match_id
@@ -265,6 +265,7 @@ def main(page: ft.Page):
 
         content_area.controls.append(ft.Divider())
         content_area.controls.append(ft.Row([
+            ft.ElevatedButton("프로필로", on_click=lambda e: show_player_profile(battle_tag)),
             ft.ElevatedButton("다시 검색", on_click=show_player_search),
             ft.ElevatedButton("메인으로", on_click=show_main_menu)
         ]))
@@ -291,13 +292,13 @@ def main(page: ft.Page):
 
         # 경기별 결과 (Match_id 단위로 그룹화, result는 해당 경기의 대표값 사용)
         recent = get_db_data("""
-            SELECT m.Match_id, ANY_VALUE(p.result) AS result, MAX(m.play_at) AS play_at
-            FROM Performance p
-            JOIN Match_info m ON p.Match_id = m.Match_id
-            WHERE p.BattleTag = ?
-            GROUP BY m.Match_id
-            ORDER BY play_at DESC
-            LIMIT 10
+            SELECT m.Match_id, m.result, m.play_at
+                FROM Performance p
+                JOIN Match_info m ON p.Match_id = m.Match_id
+                WHERE p.BattleTag = ?
+                GROUP BY m.Match_id, m.result, m.play_at
+                ORDER BY m.play_at DESC
+                LIMIT 10
         """, (battle_tag,))
 
         wins = sum(1 for r in recent if r[1] == '승리')
@@ -353,14 +354,13 @@ def main(page: ft.Page):
         content_area.controls.clear()
 
         matches = get_db_data("""
-            SELECT m.Match_id, m.play_at, mp.map_name,
-                   ANY_VALUE(p.result) AS result
-            FROM Performance p
-            JOIN Match_info m ON p.Match_id = m.Match_id
-            JOIN Map mp ON m.map_id = mp.map_id
-            WHERE p.BattleTag = ?
-            GROUP BY m.Match_id, m.play_at, mp.map_name
-            ORDER BY m.play_at DESC
+            SELECT m.Match_id, m.play_at, mp.map_name, m.result
+                FROM Performance p
+                JOIN Match_info m ON p.Match_id = m.Match_id
+                JOIN Map mp ON m.map_id = mp.map_id
+                WHERE p.BattleTag = ?
+                GROUP BY m.Match_id, m.play_at, mp.map_name, m.result
+                ORDER BY m.play_at DESC
         """, (battle_tag,))
 
         content_area.controls.append(ft.Text(f"{battle_tag} 경기 기록", size=25, weight="bold"))
@@ -399,7 +399,7 @@ def main(page: ft.Page):
         content_area.controls.clear()
 
         info = get_db_data("""
-            SELECT m.Match_id, m.play_at, mp.map_name, mo.mode_name, mp.region
+            SELECT m.Match_id, m.play_at, m.result, mp.map_name, mo.mode_name, mp.region
             FROM Match_info m
             JOIN Map mp ON m.map_id = mp.map_id
             JOIN Mode mo ON mp.mode_id = mo.mode_id
@@ -407,7 +407,7 @@ def main(page: ft.Page):
         """, (match_id,))[0]
 
         heroes = get_db_data("""
-            SELECT h.hero_name, p.result
+            SELECT h.hero_name
             FROM Performance p
             JOIN Hero h ON p.Hero_id = h.Hero_id
             WHERE p.BattleTag = ? AND p.Match_id = ?
@@ -415,13 +415,13 @@ def main(page: ft.Page):
         """, (battle_tag, match_id))
 
         switch_count = max(0, len(heroes) - 1)
-        final_result = heroes[-1][1] if heroes else "정보 없음"
+        final_result = info[2]   # ← Match_info.result 사용
 
         content_area.controls.append(ft.Text("경기 정보 상세 조회", size=25, weight="bold"))
         content_area.controls.append(ft.Divider())
         content_area.controls.append(ft.Text(f"경기 코드: {info[0]}"))
         content_area.controls.append(ft.Text(f"경기 일시: {info[1]}"))
-        content_area.controls.append(ft.Text(f"맵 이름: {info[2]} | 게임 모드: {info[3]} | 배경 국가: {info[4]}"))
+        content_area.controls.append(ft.Text(f"맵 이름: {info[3]} | 게임 모드: {info[4]} | 배경 국가: {info[5]}"))
         content_area.controls.append(ft.Divider())
         content_area.controls.append(ft.Text("플레이 요약", size=18, weight="bold"))
         content_area.controls.append(ft.Text(f"최종 결과: {final_result}"))
@@ -456,7 +456,7 @@ def main(page: ft.Page):
             WHERE m.Match_id = ?
         """, (match_id,))[0]
 
-        content_area.controls.append(ft.Text("플레이어 퍼포먼스 타임라인 정보 조회", size=22, weight="bold"))
+        content_area.controls.append(ft.Text("플레이어 영웅교체 타임라인 정보 조회", size=22, weight="bold"))
         content_area.controls.append(ft.Divider())
         content_area.controls.append(ft.Text(f"경기 요약: {match_info[0]} | {match_info[1]}"))
         content_area.controls.append(ft.Divider())

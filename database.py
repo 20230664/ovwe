@@ -82,6 +82,7 @@ def init_db():
             Match_id VARCHAR PRIMARY KEY,
             map_id VARCHAR,
             play_at TIMESTAMP,
+            result VARCHAR,   -- ← 여기로 이동
             FOREIGN KEY (map_id) REFERENCES Map(map_id)
         )
     """)
@@ -120,7 +121,6 @@ def init_db():
             damage INTEGER,
             healing INTEGER,
             play_time INTEGER,
-            result VARCHAR,
             switched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             FOREIGN KEY (BattleTag) REFERENCES player(BattleTag),
             FOREIGN KEY (Hero_id) REFERENCES Hero(Hero_id),

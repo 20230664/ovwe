@@ -37,9 +37,10 @@ def generate_dummy_data():
         match_id = f"MATCH_{i:04d}"
         map_id = random.choice(map_ids)
         play_at = base_time + timedelta(hours=i * 3)
-        matches.append((match_id, map_id, play_at))
+        result = random.choice(['승리', '패배', '무승부'])  # ← 추가
+        matches.append((match_id, map_id, play_at, result))
 
-    conn.executemany("INSERT OR IGNORE INTO Match_info VALUES (?, ?, ?)", matches)
+    conn.executemany("INSERT OR IGNORE INTO Match_info VALUES (?, ?, ?, ?)", matches)
 
     # 5. Player_Role (시작 ER)
     player_roles = []
@@ -56,7 +57,7 @@ def generate_dummy_data():
     performances = []
     er_history = []
 
-    for match_id, map_id, play_at in matches:
+    for match_id, map_id, play_at, result in matches:
         participants = random.sample(players, 5)
         result = random.choice(['승리', '패배', '무승부'])
 
@@ -117,7 +118,6 @@ def generate_dummy_data():
                     round(total_damage * ratio),
                     round(total_healing * ratio),
                     seg_play_time,
-                    result,
                     switched_at
                 ))
 
@@ -128,8 +128,8 @@ def generate_dummy_data():
 
     conn.executemany("""
         INSERT INTO Performance
-        (BattleTag, Hero_id, Match_id, kill_count, deaths, damage, healing, play_time, result, switched_at)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        (BattleTag, Hero_id, Match_id, kill_count, deaths, damage, healing, play_time, switched_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, performances)
 
     conn.executemany("""
