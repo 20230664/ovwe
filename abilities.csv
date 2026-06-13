@@ -1,0 +1,103 @@
+ability_id,Hero_id,ability_name,cooldown
+1,reinhardt,화염 강타,6초
+2,reinhardt,돌진,7초
+3,tracer,점멸,3초
+4,tracer,시간 역행,12초
+5,kiriko,수호의 부적,0초
+6,kiriko,정화의 방울,14초
+7,dva,방어 매트릭스,1초
+8,dva,부스터,4초
+9,sigma,키네틱 손귀,12초
+10,sigma,강착,10초
+11,winston,점프 팩,5초
+12,winston,방어 방벽,12초
+13,doomfist,로켓 펀치,4초
+14,doomfist,지진 강타,6초
+15,ramattra,공허의 방벽,13초
+16,ramattra,탐식의 소용돌이,12초
+17,junkerqueen,지휘의 외침,14초
+18,junkerqueen,톱니 칼,6초
+19,mauga,돌파,6초
+20,mauga,터질 듯한 심장,12초
+21,orisa,투창 투척,6초
+22,orisa,투창 회전,9초
+23,roadhog,갈고리 사슬,6초
+24,roadhog,숨 돌리기,1초
+25,wreckingball,갈고리 고정,5초
+26,wreckingball,파일드라이버,10초
+27,zarya,입자 방벽,10초
+28,zarya,보호 방벽,10초
+29,hazard,생체 금속 가시,7초
+30,hazard,급진 통과,9초
+31,genji,질풍참,8초
+32,genji,튕겨내기,8초
+33,widowmaker,갈고리 발사,12초
+34,widowmaker,맹독 지뢰,15초
+35,sojourn,분열 사격,15초
+36,sojourn,파워 슬라이드,7초
+37,soldier76,생체장,18초
+38,soldier76,나선 로켓,6초
+39,reaper,망령화,8초
+40,reaper,그림자 밟기,10초
+41,cassidy,구르기,6초
+42,cassidy,자석 수류탄,10초
+43,hanzo,폭풍 화살,10초
+44,hanzo,이단 뛰기,5초
+45,pharah,점프 추진기,10초
+46,pharah,충격탄,9초
+47,ashe,다이너마이트,12초
+48,ashe,충격 샷건,10초
+49,bastion,전술 수색,12초
+50,bastion,전술 수류탄,8초
+51,echo,비행,6초
+52,echo,광선 집중,8초
+53,junkrat,충격 지뢰,8초
+54,junkrat,강철 덫,10초
+55,mei,급속 빙결,12초
+56,mei,빙벽,12초
+57,sombra,위치변환기,5초
+58,sombra,해킹,4초
+59,symmetra,감시 포탑,10초
+60,symmetra,순간이동기,12초
+61,torbjorn,포탑 조립,12초
+62,torbjorn,과부하,10초
+63,venture,잠굴,8초
+64,venture,지각 변동,8초
+65,mercy,수호천사,2초
+66,mercy,부활,30초
+67,ana,수면총,14초
+68,ana,생체 수류탄,12초
+69,baptiste,외외적 치유,15초
+70,baptiste,불사 장치,25초
+71,lucio,볼륨을 높여라!,12초
+72,lucio,소리 파동,4초
+73,zenyatta,조화의 구슬,0초
+74,zenyatta,부조화의 구슬,0초
+75,illari,치유의 태양석,15초
+76,illari,분출,7초
+77,lifeweaver,연꽃 단상,12초
+78,lifeweaver,구원의 손길,19초
+79,brigitte,방패 밀쳐내기,5초
+80,brigitte,도리깨 투척,4초
+81,moira,생체 구슬,8초
+82,moira,소멸,6초
+83,juno,글라이드 부스트,8초
+84,juno,하이퍼 링,16초
+85,sierra,앵커 드론,12초
+86,sierra,진동 폭약,8초
+87,domina,수정 발사,8초
+88,domina,소닉 리펄서,7초
+89,vendetta,소용돌이 질주,10초
+90,vendetta,치솟는 베기,7초
+91,anran,맹염 질주,8초
+92,anran,춤추는 불꽃,8초
+93,wuyang,수호의 파도,14초
+94,wuyang,격류,8초
+95,freja,상승기류,10초
+96,freja,재빠른 돌진,4초
+97,emre,사이펀 블라스터,11초
+98,emre,사이버 파편 수류탄,10초
+99,mizuki,종이 인형 분신술,12초
+100,mizuki,속박 사슬,12초
+101,jetpack cat,생명줄,2초
+102,jetpack cat,골골대기,12초

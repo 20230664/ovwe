@@ -1,0 +1,30 @@
+map_id,mode_id,map_name,region
+busan,control,부산,대한민국
+ilios,control,일리오스,그리스
+nepal,control,네팔,네팔
+oasis,control,오아시스,이라크
+lijiang,control,리장 타워,중국
+antarctica,control,남극 반도,남극
+dorado,escort,도라도,멕시코
+havana,escort,하바나,쿠바
+circuit,escort,서킷 로얄,모나코
+rialto,escort,리알토,이탈리아
+gibraltar,escort,감시 기지: 지브롤터,지브롤터
+shambali,escort,샴발라 수도원,네팔
+junkertown,escort,쓰레기촌,호주
+route66,escort,66번 국도,미국
+kingsrow,hybrid,왕의 길,영국
+numbani,hybrid,눔바니,아프리카
+esperanca,push,에스페란사,포르투갈
+newqueenst,push,뉴 퀸 스트리트,캐나다
+colosseo,push,콜로세오,이탈리아
+suravasa,flashpoint,수라바사,인도
+newjunkcity,flashpoint,뉴정크 시티,호주
+hanaoka,clash,하나오카,일본
+throneofanubis,clash,아누비스의 왕좌,이집트
+blizzardworld,hybrid,블리자드 월드,미국
+eichenwalde,hybrid,아이헨발데,독일
+hollywood,hybrid,할리우드,미국
+midtown,hybrid,미드타운,미국
+paraiso,hybrid,파라이수,브라질
+runasapi,push,루나사피,페루
