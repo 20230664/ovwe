@@ -1,0 +1,1806 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -341.3288,
+    "scrollLeft": -447.196,
+    "zoomLevel": 0.71,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "sS9immqEwppOoDWEf5h2X",
+      "Rhxtuv7giP_OK58uju7hU",
+      "gnjD2xo7FVsMNhuvI0n8n",
+      "1LBKxkLElA1M7PRXgC5Hr",
+      "vcr-5mcXeDW5t1T4-WnhN",
+      "XzLkAPYBpsLQ2ZSuTspXW",
+      "Cc9uXOmeGLMgABtFqonSR",
+      "t6YCCtWMIYVx1gTqvGxAl",
+      "tmQWTpRE2F_RuQQWpirse",
+      "TD8C3W3KhMYT9t-c9Gyqk"
+    ],
+    "relationshipIds": [
+      "o9YlR5RVzRRZZxXzF-avD",
+      "DdQ3Rg6WRvbOOKbgBtfqf",
+      "FZbrrcZx65u-0A3eW6QJg",
+      "gWfQ9t_r9zitRcTmGgN3O",
+      "4nHosC40_nrzceYt1HSkw",
+      "G7zjK3YwQ5GOAbPG09Kv7",
+      "FsdV8OaFoSWcJiyUiLN-x",
+      "1klRv918M0wEiPW_iciAY",
+      "d9bkl40cz7ztjARkCyl0P",
+      "L0ShI3jJ8JZBdfGGKa8ec",
+      "er3JydWULpNQDgP9eKUWm"
+    ],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "sS9immqEwppOoDWEf5h2X": {
+        "id": "sS9immqEwppOoDWEf5h2X",
+        "name": "player",
+        "comment": "사용자",
+        "columnIds": [
+          "k7M3Mfi2kMNiI-OSVFHeu"
+        ],
+        "seqColumnIds": [
+          "k7M3Mfi2kMNiI-OSVFHeu",
+          "d76is6A4OnycaCx24uS5n",
+          "rERU3a7KTBvg_P1EaM639",
+          "7d0GBXBgW1-x2Z6IcceDE"
+        ],
+        "ui": {
+          "x": 14.3024,
+          "y": 200.5359,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1780227571531,
+          "createAt": 1779607068357
+        }
+      },
+      "Rhxtuv7giP_OK58uju7hU": {
+        "id": "Rhxtuv7giP_OK58uju7hU",
+        "name": "Hero",
+        "comment": "영웅",
+        "columnIds": [
+          "rK756KnDA6oWqT_9O2Zs4",
+          "fA2Eoogd5OWv4QUR4QlEG",
+          "llw4ngqUtsFYBHr_jQ71C"
+        ],
+        "seqColumnIds": [
+          "rK756KnDA6oWqT_9O2Zs4",
+          "3BLLRWz3BFzP4nLOxeePI",
+          "gbU3bmIeSIUSjB_lBKonj",
+          "fA2Eoogd5OWv4QUR4QlEG",
+          "llw4ngqUtsFYBHr_jQ71C"
+        ],
+        "ui": {
+          "x": 545.3066,
+          "y": 622.7778,
+          "zIndex": 16,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1780227580158,
+          "createAt": 1779607103932
+        }
+      },
+      "gnjD2xo7FVsMNhuvI0n8n": {
+        "id": "gnjD2xo7FVsMNhuvI0n8n",
+        "name": "Match_info",
+        "comment": "게임",
+        "columnIds": [
+          "rMo_c7ATo6a4uSzAPHB6R",
+          "e41pR9JnbgoLqFNud7b46",
+          "YdDsTX8bb7lyhe7S0x6jo",
+          "lJRYIrZJcOmZS7jCLHXDT"
+        ],
+        "seqColumnIds": [
+          "rMo_c7ATo6a4uSzAPHB6R",
+          "e41pR9JnbgoLqFNud7b46",
+          "YdDsTX8bb7lyhe7S0x6jo",
+          "hcvImmzsOmodH_BhoXK5k",
+          "jL1Wzsak9N0DAfAhCBPu0",
+          "KmJcLaBboo2oOMIvRLB3I",
+          "lJRYIrZJcOmZS7jCLHXDT"
+        ],
+        "ui": {
+          "x": 31.8309,
+          "y": 993.935,
+          "zIndex": 34,
+          "widthName": 61,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1781613513648,
+          "createAt": 1779607153113
+        }
+      },
+      "1LBKxkLElA1M7PRXgC5Hr": {
+        "id": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "Performance",
+        "comment": "플레이어 포퍼먼스",
+        "columnIds": [
+          "pz-rUW2aZPwGN63q4Df-i",
+          "wLgknIlY2CIBEFbXvSzIv",
+          "I77E6Fup_jZwOKMg-nHDy",
+          "YmRDtXJrLuDe0DYBqgooA",
+          "WX9uGoWgd64PpIdpKEkjJ",
+          "wirXJSjQIUSmgLqZsMRqS",
+          "EkUQtW64sFWUMzTqEijn-",
+          "a2t2mRTpxQTDHJ7kYeueP",
+          "4f-2-6HfsR2aj3IyBS9vq",
+          "mGNeWRVpMB1u00ClCOSJy"
+        ],
+        "seqColumnIds": [
+          "durwnd-K0beXk6QErQnoq",
+          "pz-rUW2aZPwGN63q4Df-i",
+          "wLgknIlY2CIBEFbXvSzIv",
+          "I77E6Fup_jZwOKMg-nHDy",
+          "YmRDtXJrLuDe0DYBqgooA",
+          "vJNGFJkGeYUlXtRcNmw_o",
+          "hHhFDSGI0rpcMDUgPKaQt",
+          "eq0lP928X4JW9LzQiiLp8",
+          "WX9uGoWgd64PpIdpKEkjJ",
+          "wirXJSjQIUSmgLqZsMRqS",
+          "EkUQtW64sFWUMzTqEijn-",
+          "a2t2mRTpxQTDHJ7kYeueP",
+          "4f-2-6HfsR2aj3IyBS9vq",
+          "j2-ZlL6PCWYZTzEIykQfL",
+          "mGNeWRVpMB1u00ClCOSJy"
+        ],
+        "ui": {
+          "x": 20.5574,
+          "y": 543.6632,
+          "zIndex": 46,
+          "widthName": 69,
+          "widthComment": 101,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1781613904578,
+          "createAt": 1779607175982
+        }
+      },
+      "vcr-5mcXeDW5t1T4-WnhN": {
+        "id": "vcr-5mcXeDW5t1T4-WnhN",
+        "name": "Map",
+        "comment": "맵",
+        "columnIds": [
+          "8g57pFshsFOZ-6PPIXL-f",
+          "hcf8qOM4r-U-nJJVlccJ0",
+          "1MH9GfH2de1rZ6U7qkO-9",
+          "5Qgj2Gz6foGJw7P8rjtVY"
+        ],
+        "seqColumnIds": [
+          "8g57pFshsFOZ-6PPIXL-f",
+          "hcf8qOM4r-U-nJJVlccJ0",
+          "1MH9GfH2de1rZ6U7qkO-9",
+          "5Qgj2Gz6foGJw7P8rjtVY",
+          "ykUgsYgSWrqyJanCuJ2e1"
+        ],
+        "ui": {
+          "x": 543.5129,
+          "y": 990.943,
+          "zIndex": 172,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1779863924781,
+          "createAt": 1779608256645
+        }
+      },
+      "XzLkAPYBpsLQ2ZSuTspXW": {
+        "id": "XzLkAPYBpsLQ2ZSuTspXW",
+        "name": "Mode",
+        "comment": "맵 모드",
+        "columnIds": [
+          "nm3m05IeCxTuvcCMSqgU5",
+          "HziInMD5OrpijaTygLU71",
+          "4U3GoYfRvwvB5ZSdRnTh8"
+        ],
+        "seqColumnIds": [
+          "nm3m05IeCxTuvcCMSqgU5",
+          "HziInMD5OrpijaTygLU71",
+          "Z0vBqBCP0JWr2wD0HaaXp",
+          "4U3GoYfRvwvB5ZSdRnTh8"
+        ],
+        "ui": {
+          "x": 534.9068,
+          "y": 821.4395,
+          "zIndex": 201,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1781613437380,
+          "createAt": 1779608570903
+        }
+      },
+      "TD8C3W3KhMYT9t-c9Gyqk": {
+        "id": "TD8C3W3KhMYT9t-c9Gyqk",
+        "name": "Role",
+        "comment": "역활군",
+        "columnIds": [
+          "47g5HqSCfv7_l1LtIIUUn",
+          "w4RFalMxEPWAQ1shrBKGw",
+          "Z0iJxRgCuz5vrmApVpwOy"
+        ],
+        "seqColumnIds": [
+          "47g5HqSCfv7_l1LtIIUUn",
+          "w4RFalMxEPWAQ1shrBKGw",
+          "Z0iJxRgCuz5vrmApVpwOy"
+        ],
+        "ui": {
+          "x": 916.6763,
+          "y": 470.0789,
+          "zIndex": 262,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1781613235119,
+          "createAt": 1779609459573
+        }
+      },
+      "Cc9uXOmeGLMgABtFqonSR": {
+        "id": "Cc9uXOmeGLMgABtFqonSR",
+        "name": "Player_Role",
+        "comment": "플레이어 역활",
+        "columnIds": [
+          "yXyNWvy2IXPdS43XcvFeW",
+          "bMuxlhTVToQE9DOLvKgvL",
+          "tGp-wTULmiijlxJseARGu"
+        ],
+        "seqColumnIds": [
+          "yXyNWvy2IXPdS43XcvFeW",
+          "bMuxlhTVToQE9DOLvKgvL",
+          "tGp-wTULmiijlxJseARGu"
+        ],
+        "ui": {
+          "x": 931.1407,
+          "y": 185.3593,
+          "zIndex": 274,
+          "widthName": 62,
+          "widthComment": 77,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1780227575513,
+          "createAt": 1779863556728
+        }
+      },
+      "t6YCCtWMIYVx1gTqvGxAl": {
+        "id": "t6YCCtWMIYVx1gTqvGxAl",
+        "name": "Hero_Ability",
+        "comment": "영웅 능력",
+        "columnIds": [
+          "HbCH_6B3djCW7F3KEr-Wu",
+          "Qeq1gAAzWHIyZDCgDMWpF",
+          "3OjNQAXbXZX2Ev7i0eInv",
+          "eA6LwKwDEHeAsFBz9u3Fh"
+        ],
+        "seqColumnIds": [
+          "HbCH_6B3djCW7F3KEr-Wu",
+          "Qeq1gAAzWHIyZDCgDMWpF",
+          "3OjNQAXbXZX2Ev7i0eInv",
+          "atj9qpk0ic37hmIouN6Cf",
+          "eA6LwKwDEHeAsFBz9u3Fh"
+        ],
+        "ui": {
+          "x": 1060,
+          "y": 629.9745,
+          "zIndex": 276,
+          "widthName": 66,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1780227319960,
+          "createAt": 1780227192211
+        }
+      },
+      "tmQWTpRE2F_RuQQWpirse": {
+        "id": "tmQWTpRE2F_RuQQWpirse",
+        "name": "ER_History",
+        "comment": "점수 변동",
+        "columnIds": [
+          "TlDOXhotakT0TdrXdDKSv",
+          "Bg4VNpMg4vIJ7pDZ7qX4p",
+          "rzS9Qz9PH3LvbnIRvnZ7x",
+          "lTs29QVnOjt3V-J3WziFL",
+          "srnmU9YbPF4zQuHP9c2pP"
+        ],
+        "seqColumnIds": [
+          "TlDOXhotakT0TdrXdDKSv",
+          "Bg4VNpMg4vIJ7pDZ7qX4p",
+          "rzS9Qz9PH3LvbnIRvnZ7x",
+          "lTs29QVnOjt3V-J3WziFL",
+          "srnmU9YbPF4zQuHP9c2pP"
+        ],
+        "ui": {
+          "x": 418.766,
+          "y": 336.2511,
+          "zIndex": 333,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1780227576848,
+          "createAt": 1780227333940
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "k7M3Mfi2kMNiI-OSVFHeu": {
+        "id": "k7M3Mfi2kMNiI-OSVFHeu",
+        "tableId": "sS9immqEwppOoDWEf5h2X",
+        "name": "BattleTag",
+        "comment": "배틀테그",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610188690,
+          "createAt": 1779607266850
+        }
+      },
+      "d76is6A4OnycaCx24uS5n": {
+        "id": "d76is6A4OnycaCx24uS5n",
+        "tableId": "sS9immqEwppOoDWEf5h2X",
+        "name": "main_role",
+        "comment": "주 역활군",
+        "dataType": "string",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607378792,
+          "createAt": 1779607294570
+        }
+      },
+      "7d0GBXBgW1-x2Z6IcceDE": {
+        "id": "7d0GBXBgW1-x2Z6IcceDE",
+        "tableId": "sS9immqEwppOoDWEf5h2X",
+        "name": "current_er",
+        "comment": "현제 점수",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607384922,
+          "createAt": 1779607310218
+        }
+      },
+      "rK756KnDA6oWqT_9O2Zs4": {
+        "id": "rK756KnDA6oWqT_9O2Zs4",
+        "tableId": "Rhxtuv7giP_OK58uju7hU",
+        "name": "Hero_id",
+        "comment": "영웅id",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779863751406,
+          "createAt": 1779607397468
+        }
+      },
+      "3BLLRWz3BFzP4nLOxeePI": {
+        "id": "3BLLRWz3BFzP4nLOxeePI",
+        "tableId": "Rhxtuv7giP_OK58uju7hU",
+        "name": "role",
+        "comment": "역활군",
+        "dataType": "string",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607431759,
+          "createAt": 1779607415593
+        }
+      },
+      "gbU3bmIeSIUSjB_lBKonj": {
+        "id": "gbU3bmIeSIUSjB_lBKonj",
+        "tableId": "Rhxtuv7giP_OK58uju7hU",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607432962,
+          "createAt": 1779607432962
+        }
+      },
+      "rMo_c7ATo6a4uSzAPHB6R": {
+        "id": "rMo_c7ATo6a4uSzAPHB6R",
+        "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+        "name": "Match_id",
+        "comment": "경기코드",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1781613853837,
+          "createAt": 1779607446316
+        }
+      },
+      "YdDsTX8bb7lyhe7S0x6jo": {
+        "id": "YdDsTX8bb7lyhe7S0x6jo",
+        "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+        "name": "play_at",
+        "comment": "경기 일시",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779609249340,
+          "createAt": 1779607490500
+        }
+      },
+      "hcvImmzsOmodH_BhoXK5k": {
+        "id": "hcvImmzsOmodH_BhoXK5k",
+        "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+        "name": "map_name",
+        "comment": "맵 이름",
+        "dataType": "string",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607534753,
+          "createAt": 1779607517016
+        }
+      },
+      "jL1Wzsak9N0DAfAhCBPu0": {
+        "id": "jL1Wzsak9N0DAfAhCBPu0",
+        "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+        "name": "result",
+        "comment": "경기결과",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610216212,
+          "createAt": 1779607535782
+        }
+      },
+      "durwnd-K0beXk6QErQnoq": {
+        "id": "durwnd-K0beXk6QErQnoq",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "perf_id",
+        "comment": "기록 ID",
+        "dataType": "string",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607857743,
+          "createAt": 1779607715093
+        }
+      },
+      "vJNGFJkGeYUlXtRcNmw_o": {
+        "id": "vJNGFJkGeYUlXtRcNmw_o",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "BattleTag",
+        "comment": "배틀테그",
+        "dataType": "string",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607750833,
+          "createAt": 1779607736904
+        }
+      },
+      "hHhFDSGI0rpcMDUgPKaQt": {
+        "id": "hHhFDSGI0rpcMDUgPKaQt",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "Match_id",
+        "comment": "경기코드",
+        "dataType": "string",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607767489,
+          "createAt": 1779607750834
+        }
+      },
+      "eq0lP928X4JW9LzQiiLp8": {
+        "id": "eq0lP928X4JW9LzQiiLp8",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "Hero_id",
+        "comment": "사용 영웅명",
+        "dataType": "string",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 65,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607795433,
+          "createAt": 1779607767489
+        }
+      },
+      "WX9uGoWgd64PpIdpKEkjJ": {
+        "id": "WX9uGoWgd64PpIdpKEkjJ",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "kill_count",
+        "comment": "처치",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779609685483,
+          "createAt": 1779607797384
+        }
+      },
+      "wirXJSjQIUSmgLqZsMRqS": {
+        "id": "wirXJSjQIUSmgLqZsMRqS",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "deaths",
+        "comment": "죽음",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607820098,
+          "createAt": 1779607810734
+        }
+      },
+      "EkUQtW64sFWUMzTqEijn-": {
+        "id": "EkUQtW64sFWUMzTqEijn-",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "damage",
+        "comment": "딜량",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607827905,
+          "createAt": 1779607820098
+        }
+      },
+      "a2t2mRTpxQTDHJ7kYeueP": {
+        "id": "a2t2mRTpxQTDHJ7kYeueP",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "healing",
+        "comment": "힐량",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607838067,
+          "createAt": 1779607827905
+        }
+      },
+      "4f-2-6HfsR2aj3IyBS9vq": {
+        "id": "4f-2-6HfsR2aj3IyBS9vq",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "play_time",
+        "comment": "플레이 시간",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 65,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779607855035,
+          "createAt": 1779607838068
+        }
+      },
+      "wLgknIlY2CIBEFbXvSzIv": {
+        "id": "wLgknIlY2CIBEFbXvSzIv",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "BattleTag",
+        "comment": "배틀테그",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779866731804,
+          "createAt": 1779607873675
+        }
+      },
+      "I77E6Fup_jZwOKMg-nHDy": {
+        "id": "I77E6Fup_jZwOKMg-nHDy",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "Hero_id",
+        "comment": "영웅명",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779866730198,
+          "createAt": 1779607885680
+        }
+      },
+      "YmRDtXJrLuDe0DYBqgooA": {
+        "id": "YmRDtXJrLuDe0DYBqgooA",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "Match_id",
+        "comment": "경기코드",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1781613853837,
+          "createAt": 1779607892996
+        }
+      },
+      "8g57pFshsFOZ-6PPIXL-f": {
+        "id": "8g57pFshsFOZ-6PPIXL-f",
+        "tableId": "vcr-5mcXeDW5t1T4-WnhN",
+        "name": "map_id",
+        "comment": "맵 ID",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610171125,
+          "createAt": 1779608265594
+        }
+      },
+      "1MH9GfH2de1rZ6U7qkO-9": {
+        "id": "1MH9GfH2de1rZ6U7qkO-9",
+        "tableId": "vcr-5mcXeDW5t1T4-WnhN",
+        "name": "map_name",
+        "comment": "맵 이름",
+        "dataType": "VARCHAR(100)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610164039,
+          "createAt": 1779608314968
+        }
+      },
+      "5Qgj2Gz6foGJw7P8rjtVY": {
+        "id": "5Qgj2Gz6foGJw7P8rjtVY",
+        "tableId": "vcr-5mcXeDW5t1T4-WnhN",
+        "name": "region",
+        "comment": "배경 국가",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610180118,
+          "createAt": 1779608325763
+        }
+      },
+      "ykUgsYgSWrqyJanCuJ2e1": {
+        "id": "ykUgsYgSWrqyJanCuJ2e1",
+        "tableId": "vcr-5mcXeDW5t1T4-WnhN",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779608390033,
+          "createAt": 1779608390033
+        }
+      },
+      "KmJcLaBboo2oOMIvRLB3I": {
+        "id": "KmJcLaBboo2oOMIvRLB3I",
+        "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779608393072,
+          "createAt": 1779608393072
+        }
+      },
+      "e41pR9JnbgoLqFNud7b46": {
+        "id": "e41pR9JnbgoLqFNud7b46",
+        "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+        "name": "map_id",
+        "comment": "맵 ID",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610171125,
+          "createAt": 1779608437401
+        }
+      },
+      "nm3m05IeCxTuvcCMSqgU5": {
+        "id": "nm3m05IeCxTuvcCMSqgU5",
+        "tableId": "XzLkAPYBpsLQ2ZSuTspXW",
+        "name": "mode_id",
+        "comment": "모드 id",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610122322,
+          "createAt": 1779608585704
+        }
+      },
+      "HziInMD5OrpijaTygLU71": {
+        "id": "HziInMD5OrpijaTygLU71",
+        "tableId": "XzLkAPYBpsLQ2ZSuTspXW",
+        "name": "mode_name",
+        "comment": "모드 이름",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610145225,
+          "createAt": 1779608615634
+        }
+      },
+      "Z0vBqBCP0JWr2wD0HaaXp": {
+        "id": "Z0vBqBCP0JWr2wD0HaaXp",
+        "tableId": "XzLkAPYBpsLQ2ZSuTspXW",
+        "name": "",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779608633690,
+          "createAt": 1779608633690
+        }
+      },
+      "hcf8qOM4r-U-nJJVlccJ0": {
+        "id": "hcf8qOM4r-U-nJJVlccJ0",
+        "tableId": "vcr-5mcXeDW5t1T4-WnhN",
+        "name": "mode_id",
+        "comment": "소속 모드 id",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 67,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610122322,
+          "createAt": 1779608682242
+        }
+      },
+      "47g5HqSCfv7_l1LtIIUUn": {
+        "id": "47g5HqSCfv7_l1LtIIUUn",
+        "tableId": "TD8C3W3KhMYT9t-c9Gyqk",
+        "name": "role_id",
+        "comment": "역활군id",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610107888,
+          "createAt": 1779609466576
+        }
+      },
+      "w4RFalMxEPWAQ1shrBKGw": {
+        "id": "w4RFalMxEPWAQ1shrBKGw",
+        "tableId": "TD8C3W3KhMYT9t-c9Gyqk",
+        "name": "role_name",
+        "comment": "역활군이름",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 62,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610136690,
+          "createAt": 1779609483457
+        }
+      },
+      "llw4ngqUtsFYBHr_jQ71C": {
+        "id": "llw4ngqUtsFYBHr_jQ71C",
+        "tableId": "Rhxtuv7giP_OK58uju7hU",
+        "name": "role_id",
+        "comment": "역활군id",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610107888,
+          "createAt": 1779609506348
+        }
+      },
+      "rERU3a7KTBvg_P1EaM639": {
+        "id": "rERU3a7KTBvg_P1EaM639",
+        "tableId": "sS9immqEwppOoDWEf5h2X",
+        "name": "role_id",
+        "comment": "주 역활군",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779610107888,
+          "createAt": 1779609604825
+        }
+      },
+      "tGp-wTULmiijlxJseARGu": {
+        "id": "tGp-wTULmiijlxJseARGu",
+        "tableId": "Cc9uXOmeGLMgABtFqonSR",
+        "name": "current_er",
+        "comment": "현재 점수",
+        "dataType": "int",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1781613946023,
+          "createAt": 1779863584993
+        }
+      },
+      "yXyNWvy2IXPdS43XcvFeW": {
+        "id": "yXyNWvy2IXPdS43XcvFeW",
+        "tableId": "Cc9uXOmeGLMgABtFqonSR",
+        "name": "BattleTag",
+        "comment": "배틀테그",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 3,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779863690873,
+          "createAt": 1779863670351
+        }
+      },
+      "bMuxlhTVToQE9DOLvKgvL": {
+        "id": "bMuxlhTVToQE9DOLvKgvL",
+        "tableId": "Cc9uXOmeGLMgABtFqonSR",
+        "name": "role_id",
+        "comment": "역활군id",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 3,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779863692100,
+          "createAt": 1779863675591
+        }
+      },
+      "fA2Eoogd5OWv4QUR4QlEG": {
+        "id": "fA2Eoogd5OWv4QUR4QlEG",
+        "tableId": "Rhxtuv7giP_OK58uju7hU",
+        "name": "hero_name",
+        "comment": "영웅이름",
+        "dataType": "varchar(50)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 61,
+          "widthComment": 60,
+          "widthDataType": 61,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779863749792,
+          "createAt": 1779863722625
+        }
+      },
+      "j2-ZlL6PCWYZTzEIykQfL": {
+        "id": "j2-ZlL6PCWYZTzEIykQfL",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "result",
+        "comment": "경기결과",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1779866388268,
+          "createAt": 1779866382020
+        }
+      },
+      "pz-rUW2aZPwGN63q4Df-i": {
+        "id": "pz-rUW2aZPwGN63q4Df-i",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": "perf_id",
+        "comment": "퍼포먼스 로그 id",
+        "dataType": "int",
+        "default": "AUTO_INCREMENT",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 91,
+          "widthDataType": 60,
+          "widthDefault": 102
+        },
+        "meta": {
+          "updateAt": 1781613913817,
+          "createAt": 1779866657229
+        }
+      },
+      "HbCH_6B3djCW7F3KEr-Wu": {
+        "id": "HbCH_6B3djCW7F3KEr-Wu",
+        "tableId": "t6YCCtWMIYVx1gTqvGxAl",
+        "name": "ability_id",
+        "comment": "스킬 ID",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227298965,
+          "createAt": 1780227203847
+        }
+      },
+      "3OjNQAXbXZX2Ev7i0eInv": {
+        "id": "3OjNQAXbXZX2Ev7i0eInv",
+        "tableId": "t6YCCtWMIYVx1gTqvGxAl",
+        "name": "ability_name",
+        "comment": "스킬 이름",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 68,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227300842,
+          "createAt": 1780227221879
+        }
+      },
+      "atj9qpk0ic37hmIouN6Cf": {
+        "id": "atj9qpk0ic37hmIouN6Cf",
+        "tableId": "t6YCCtWMIYVx1gTqvGxAl",
+        "name": "description",
+        "comment": "",
+        "dataType": "",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 61,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227255627,
+          "createAt": 1780227240944
+        }
+      },
+      "eA6LwKwDEHeAsFBz9u3Fh": {
+        "id": "eA6LwKwDEHeAsFBz9u3Fh",
+        "tableId": "t6YCCtWMIYVx1gTqvGxAl",
+        "name": "cooldown",
+        "comment": "쿨타임",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227302646,
+          "createAt": 1780227257640
+        }
+      },
+      "Qeq1gAAzWHIyZDCgDMWpF": {
+        "id": "Qeq1gAAzWHIyZDCgDMWpF",
+        "tableId": "t6YCCtWMIYVx1gTqvGxAl",
+        "name": "Hero_id",
+        "comment": "영웅id",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227315043,
+          "createAt": 1780227315042
+        }
+      },
+      "TlDOXhotakT0TdrXdDKSv": {
+        "id": "TlDOXhotakT0TdrXdDKSv",
+        "tableId": "tmQWTpRE2F_RuQQWpirse",
+        "name": "history_id",
+        "comment": "점수 변동",
+        "dataType": "int",
+        "default": "",
+        "options": 10,
+        "ui": {
+          "keys": 1,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227552402,
+          "createAt": 1780227379835
+        }
+      },
+      "lTs29QVnOjt3V-J3WziFL": {
+        "id": "lTs29QVnOjt3V-J3WziFL",
+        "tableId": "tmQWTpRE2F_RuQQWpirse",
+        "name": "changed_er",
+        "comment": "변동 점수 수치",
+        "dataType": "int",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 0,
+          "widthName": 63,
+          "widthComment": 81,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227549442,
+          "createAt": 1780227423707
+        }
+      },
+      "srnmU9YbPF4zQuHP9c2pP": {
+        "id": "srnmU9YbPF4zQuHP9c2pP",
+        "tableId": "tmQWTpRE2F_RuQQWpirse",
+        "name": "recorded_at",
+        "comment": "날짜와 시간",
+        "dataType": "DATETIME",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 65,
+          "widthComment": 65,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227468307,
+          "createAt": 1780227446604
+        }
+      },
+      "Bg4VNpMg4vIJ7pDZ7qX4p": {
+        "id": "Bg4VNpMg4vIJ7pDZ7qX4p",
+        "tableId": "tmQWTpRE2F_RuQQWpirse",
+        "name": "BattleTag",
+        "comment": "배틀테그",
+        "dataType": "VARCHAR(50)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227479815,
+          "createAt": 1780227479815
+        }
+      },
+      "rzS9Qz9PH3LvbnIRvnZ7x": {
+        "id": "rzS9Qz9PH3LvbnIRvnZ7x",
+        "tableId": "tmQWTpRE2F_RuQQWpirse",
+        "name": "role_id",
+        "comment": "역활군id",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 8,
+        "ui": {
+          "keys": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1780227486445,
+          "createAt": 1780227486445
+        }
+      },
+      "Z0iJxRgCuz5vrmApVpwOy": {
+        "id": "Z0iJxRgCuz5vrmApVpwOy",
+        "tableId": "TD8C3W3KhMYT9t-c9Gyqk",
+        "name": "description",
+        "comment": "역활군 설명",
+        "dataType": "VARCHAR(100)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 61,
+          "widthComment": 65,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1781613418827,
+          "createAt": 1781613235119
+        }
+      },
+      "4U3GoYfRvwvB5ZSdRnTh8": {
+        "id": "4U3GoYfRvwvB5ZSdRnTh8",
+        "tableId": "XzLkAPYBpsLQ2ZSuTspXW",
+        "name": "description",
+        "comment": "모드 설명",
+        "dataType": "VARCHAR(100)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 61,
+          "widthComment": 60,
+          "widthDataType": 81,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1781613450598,
+          "createAt": 1781613437380
+        }
+      },
+      "lJRYIrZJcOmZS7jCLHXDT": {
+        "id": "lJRYIrZJcOmZS7jCLHXDT",
+        "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+        "name": "result",
+        "comment": "경기결과",
+        "dataType": "VARCHAR(20)",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 75,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1781613558814,
+          "createAt": 1781613513648
+        }
+      },
+      "mGNeWRVpMB1u00ClCOSJy": {
+        "id": "mGNeWRVpMB1u00ClCOSJy",
+        "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+        "name": " switched_at",
+        "comment": "교체 시간",
+        "dataType": "TIMESTAMP",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 67,
+          "widthComment": 60,
+          "widthDataType": 65,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1781613727085,
+          "createAt": 1781613710593
+        }
+      }
+    },
+    "relationshipEntities": {
+      "o9YlR5RVzRRZZxXzF-avD": {
+        "id": "o9YlR5RVzRRZZxXzF-avD",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "sS9immqEwppOoDWEf5h2X",
+          "columnIds": [
+            "k7M3Mfi2kMNiI-OSVFHeu"
+          ],
+          "x": 204.3024,
+          "y": 280.53589999999997,
+          "direction": 8
+        },
+        "end": {
+          "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+          "columnIds": [
+            "wLgknIlY2CIBEFbXvSzIv"
+          ],
+          "x": 250.5574,
+          "y": 543.6632,
+          "direction": 4
+        },
+        "meta": {
+          "updateAt": 1779607873676,
+          "createAt": 1779607873676
+        }
+      },
+      "DdQ3Rg6WRvbOOKbgBtfqf": {
+        "id": "DdQ3Rg6WRvbOOKbgBtfqf",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "Rhxtuv7giP_OK58uju7hU",
+          "columnIds": [
+            "rK756KnDA6oWqT_9O2Zs4"
+          ],
+          "x": 545.3066,
+          "y": 686.7778,
+          "direction": 1
+        },
+        "end": {
+          "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+          "columnIds": [
+            "I77E6Fup_jZwOKMg-nHDy"
+          ],
+          "x": 480.55740000000003,
+          "y": 691.6632,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1779607885680,
+          "createAt": 1779607885680
+        }
+      },
+      "FZbrrcZx65u-0A3eW6QJg": {
+        "id": "FZbrrcZx65u-0A3eW6QJg",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+          "columnIds": [
+            "rMo_c7ATo6a4uSzAPHB6R"
+          ],
+          "x": 221.83089999999999,
+          "y": 993.935,
+          "direction": 4
+        },
+        "end": {
+          "tableId": "1LBKxkLElA1M7PRXgC5Hr",
+          "columnIds": [
+            "YmRDtXJrLuDe0DYBqgooA"
+          ],
+          "x": 250.5574,
+          "y": 839.6632,
+          "direction": 8
+        },
+        "meta": {
+          "updateAt": 1779607892996,
+          "createAt": 1779607892996
+        }
+      },
+      "gWfQ9t_r9zitRcTmGgN3O": {
+        "id": "gWfQ9t_r9zitRcTmGgN3O",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "vcr-5mcXeDW5t1T4-WnhN",
+          "columnIds": [
+            "8g57pFshsFOZ-6PPIXL-f"
+          ],
+          "x": 543.5129,
+          "y": 1066.943,
+          "direction": 1
+        },
+        "end": {
+          "tableId": "gnjD2xo7FVsMNhuvI0n8n",
+          "columnIds": [
+            "e41pR9JnbgoLqFNud7b46"
+          ],
+          "x": 411.8309,
+          "y": 1069.935,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1779608437401,
+          "createAt": 1779608437401
+        }
+      },
+      "4nHosC40_nrzceYt1HSkw": {
+        "id": "4nHosC40_nrzceYt1HSkw",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "XzLkAPYBpsLQ2ZSuTspXW",
+          "columnIds": [
+            "nm3m05IeCxTuvcCMSqgU5"
+          ],
+          "x": 731.4068,
+          "y": 949.4395,
+          "direction": 8
+        },
+        "end": {
+          "tableId": "vcr-5mcXeDW5t1T4-WnhN",
+          "columnIds": [
+            "hcf8qOM4r-U-nJJVlccJ0"
+          ],
+          "x": 740.0129,
+          "y": 990.943,
+          "direction": 4
+        },
+        "meta": {
+          "updateAt": 1779608682243,
+          "createAt": 1779608682243
+        }
+      },
+      "d9bkl40cz7ztjARkCyl0P": {
+        "id": "d9bkl40cz7ztjARkCyl0P",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "TD8C3W3KhMYT9t-c9Gyqk",
+          "columnIds": [
+            "47g5HqSCfv7_l1LtIIUUn"
+          ],
+          "x": 916.6763,
+          "y": 566.0789,
+          "direction": 1
+        },
+        "end": {
+          "tableId": "Rhxtuv7giP_OK58uju7hU",
+          "columnIds": [
+            "llw4ngqUtsFYBHr_jQ71C"
+          ],
+          "x": 926.3066,
+          "y": 654.7778,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1779609506348,
+          "createAt": 1779609506348
+        }
+      },
+      "G7zjK3YwQ5GOAbPG09Kv7": {
+        "id": "G7zjK3YwQ5GOAbPG09Kv7",
+        "identification": true,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "sS9immqEwppOoDWEf5h2X",
+          "columnIds": [
+            "k7M3Mfi2kMNiI-OSVFHeu"
+          ],
+          "x": 394.3024,
+          "y": 220.5359,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "Cc9uXOmeGLMgABtFqonSR",
+          "columnIds": [
+            "yXyNWvy2IXPdS43XcvFeW"
+          ],
+          "x": 931.1407,
+          "y": 249.3593,
+          "direction": 1
+        },
+        "meta": {
+          "updateAt": 1779863670352,
+          "createAt": 1779863670352
+        }
+      },
+      "L0ShI3jJ8JZBdfGGKa8ec": {
+        "id": "L0ShI3jJ8JZBdfGGKa8ec",
+        "identification": true,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "TD8C3W3KhMYT9t-c9Gyqk",
+          "columnIds": [
+            "47g5HqSCfv7_l1LtIIUUn"
+          ],
+          "x": 1112.6763,
+          "y": 470.0789,
+          "direction": 4
+        },
+        "end": {
+          "tableId": "Cc9uXOmeGLMgABtFqonSR",
+          "columnIds": [
+            "bMuxlhTVToQE9DOLvKgvL"
+          ],
+          "x": 1121.1407,
+          "y": 313.35929999999996,
+          "direction": 8
+        },
+        "meta": {
+          "updateAt": 1779863675591,
+          "createAt": 1779863675591
+        }
+      },
+      "FsdV8OaFoSWcJiyUiLN-x": {
+        "id": "FsdV8OaFoSWcJiyUiLN-x",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "Rhxtuv7giP_OK58uju7hU",
+          "columnIds": [
+            "rK756KnDA6oWqT_9O2Zs4"
+          ],
+          "x": 926.3066,
+          "y": 718.7778,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "t6YCCtWMIYVx1gTqvGxAl",
+          "columnIds": [
+            "Qeq1gAAzWHIyZDCgDMWpF"
+          ],
+          "x": 1060,
+          "y": 705.9745,
+          "direction": 1
+        },
+        "meta": {
+          "updateAt": 1780227315043,
+          "createAt": 1780227315043
+        }
+      },
+      "1klRv918M0wEiPW_iciAY": {
+        "id": "1klRv918M0wEiPW_iciAY",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "sS9immqEwppOoDWEf5h2X",
+          "columnIds": [
+            "k7M3Mfi2kMNiI-OSVFHeu"
+          ],
+          "x": 394.3024,
+          "y": 260.53589999999997,
+          "direction": 2
+        },
+        "end": {
+          "tableId": "tmQWTpRE2F_RuQQWpirse",
+          "columnIds": [
+            "Bg4VNpMg4vIJ7pDZ7qX4p"
+          ],
+          "x": 418.766,
+          "y": 424.2511,
+          "direction": 1
+        },
+        "meta": {
+          "updateAt": 1780227479815,
+          "createAt": 1780227479815
+        }
+      },
+      "er3JydWULpNQDgP9eKUWm": {
+        "id": "er3JydWULpNQDgP9eKUWm",
+        "identification": false,
+        "relationshipType": 16,
+        "startRelationshipType": 2,
+        "start": {
+          "tableId": "TD8C3W3KhMYT9t-c9Gyqk",
+          "columnIds": [
+            "47g5HqSCfv7_l1LtIIUUn"
+          ],
+          "x": 916.6763,
+          "y": 502.0789,
+          "direction": 1
+        },
+        "end": {
+          "tableId": "tmQWTpRE2F_RuQQWpirse",
+          "columnIds": [
+            "rzS9Qz9PH3LvbnIRvnZ7x"
+          ],
+          "x": 824.7660000000001,
+          "y": 424.2511,
+          "direction": 2
+        },
+        "meta": {
+          "updateAt": 1780227486445,
+          "createAt": 1780227486445
+        }
+      }
+    },
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  }
+}
